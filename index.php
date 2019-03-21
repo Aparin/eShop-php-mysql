@@ -5,14 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>My e-shop</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="./styles/reset.css" media="all">
   <link rel="stylesheet" type="text/css" media="screen" href="./styles/style.css" media="all">
   
 </head>
 <body>
   <div class="main_wrapper">
     <div class="header_wrapper">
-      <img src="images/logo.png">
-      <img src="images/banner.png">
+      <img src="images/logo.png" width="295px" height="125px" >
+      <img src="images/banner_w700.png" style="float: right">
     </div>
     <!-- Начало меню -->
     <div class="menubar" id="menu">
