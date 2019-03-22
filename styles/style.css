@@ -8,6 +8,10 @@ body {
     background-color: #fff;
 }
 
+img {
+    margin: 0
+}
+
 .main_wrapper {
     background: white;
     width: 1000px;

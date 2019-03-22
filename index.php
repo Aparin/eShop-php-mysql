@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+  include('functions/functions.php');
+?>
+
 <html>
 <head>
   <meta charset="utf-8">
@@ -12,7 +16,7 @@
 <body>
   <div class="main_wrapper">
     <div class="header_wrapper">
-      <img src="images/logo.png" width="295px" height="125px" >
+      <img src="images/logo.png"  >
       <img src="images/banner_w700.png" style="float: right">
     </div>
     <!-- Начало меню -->
@@ -35,42 +39,36 @@
     <!-- Конец меню -->
 
     <div class="content_wrapper">
-      <div id="content_area">This is content area</div>
+      <div id="content_area">     
+        
+      </div>
+
       <div id="sidebar">
         <div class="sidebar_title">
           Категории:
         </div>
         <ul class="cats">
-          <li><a href="#">Смартфоны</a></li>
-          <li><a href="#">Планшеты</a></li>
-          <li><a href="#">Ноутбуки</a></li>
-          <li><a href="#">Компьютеры</a></li>
+          <?php getCats(); ?>
         </ul>
 
         <div class="sidebar_title">
           Бренды:
         </div>
         <ul class="cats">
-          <li><a href="#">Sumsung</a></li>
-          <li><a href="#">Apple</a></li>
-          <li><a href="#">Sony</a></li>
-          <li><a href="#">Xiaomi</a></li>
+        <?php getBrands(); ?>
         </ul>
 
         <div class="sidebar_title">
           ОС:
         </div>
         <ul class="cats">
-          <li><a href="#">Windows</a></li>
-          <li><a href="#">Android</a></li>
-          <li><a href="#">iOS</a></li>
-          <li><a href="#">Linux</a></li>
+          <?php getOS(); ?>
         </ul>
 
       </div>
     </div>
     
-    <div id="footer">This is footer</div>
+    <div id="footer">&copy; This is footer</div>
   </div>
 </body>
 </html>
