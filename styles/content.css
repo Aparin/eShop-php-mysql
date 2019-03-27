@@ -1,0 +1,11 @@
+.content_wrapper {
+    width: 1000px;
+    height: 1000px;
+}
+
+#content_area {
+    width: 800px;
+    height: 1000px;
+    float: left;
+    background-color: white;
+}

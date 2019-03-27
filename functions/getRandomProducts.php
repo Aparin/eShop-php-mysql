@@ -15,6 +15,7 @@
           <h2 class='cardTitle'>$title</h2>
           <img class='single_product' src='admin_area/product_images/$image' />
           <p class='price'>$price</p>
+          <a href='details.php' style='text-aling: center'>Подробнее</a>
           
         </div>
       ";    

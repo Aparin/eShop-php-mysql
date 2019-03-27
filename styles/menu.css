@@ -1,0 +1,33 @@
+.menubar {
+    width: 1000px;
+    height: 50px;
+    background: darkblue;
+    color: white;
+    line-height: 50px;
+}
+
+#menu {
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul {
+    float: left;
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    margin: 4px;
+}
+
+#menu a:hover {
+    color: #ffddc7;
+}
