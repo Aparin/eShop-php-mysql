@@ -39,9 +39,7 @@
     <!-- Конец меню -->
 
     <div class="content_wrapper">
-      <div id="content_area">     
-        
-      </div>
+   
 
       <div id="sidebar">
         <div class="sidebar_title">
@@ -66,6 +64,12 @@
         </ul>
 
       </div>
+      <div id="content_area">     
+        <div class="products_box">
+          <?php getRandomProducts(); ?>
+        </div>
+      </div>
+      <div id="right_sidebar"></div>
     </div>
     
     <div id="footer">&copy; This is footer</div>

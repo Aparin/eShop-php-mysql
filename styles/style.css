@@ -67,20 +67,28 @@ img {
 
 .content_wrapper {
     width: 1000px;
-    height: 800px;
+    height: 1000px;
 }
 
 #content_area {
     width: 800px;
-    height: 800px;
-    float: right;
-    background-color: #f0f0f0
+    height: 1000px;
+    float: left;
+    background-color: white;
 }
 
 #sidebar {
-    width: 200px;
-    height: 800px;
+    width: 190px;
+    height: 1000px;
     float: left;
+    background-color: #0083ca;
+    color: white;
+}
+
+#right_sidebar {
+    width: 10px;
+    height: 1000px;
+    float: right;
     background-color: #0083ca;
     color: white;
 }
@@ -108,6 +116,35 @@ img {
 
 .cats a:hover {
     color: #ffddc7;
+}
+
+.single_product {
+    width: 260px;
+    height: 500px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 1px;
+    padding-top: 5px;
+}
+
+img.single_product {
+    width: 250px;
+    height: 400px;
+    padding-bottom: 15px;
+}
+
+h2.cardTitle {
+    font-size: 24px;
+    padding: 5px;
+    padding-top: 10px;
+    text-align: center;
+    color: #ff2400;
+}
+
+.price {
+    color: brown;
+    font-size: 24px;
+    text-align: center;
 }
 
 #footer {

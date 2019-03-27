@@ -75,6 +75,7 @@
     // getting image
     $product_image = $_FILES['product_image']['name'];
     $product_image_tmp = $_FILES['product_image']['tmp_name'];
+    move_uploaded_file($product_image_tmp, "product_images/$product_image");
 
     mysqli_query($con, "SET NAMES utf8");
 
@@ -83,6 +84,9 @@
     $res = $con->query($insert_product);
     if ($res) {
       echo('<script>alert("Сохранено в БД");</script>');
+      echo '<script>window.open("insert_product.php", "_self"</script>';
+    } else{
+      echo('<script>alert("Ошибка записи!!!");</script>');
     }
    
   }
