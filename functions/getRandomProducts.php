@@ -15,7 +15,10 @@
           <h2 class='cardTitle'>$title</h2>
           <img class='single_product' src='admin_area/product_images/$image' />
           <p class='price'>$price</p>
-          <a href='details.php' style='text-aling: center'>Подробнее</a>
+          <a href='details.php?id=$id'><button class='more'>Подробнее</button></a>
+          <a href='index.php?id=$id' class='addToCart'>
+            <button class='addToCard'>Добавить в корзину</button>
+          </a>
           
         </div>
       ";    

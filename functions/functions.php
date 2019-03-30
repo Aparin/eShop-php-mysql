@@ -6,4 +6,6 @@
   include('selectCats.php');
   include('selectBrands.php');
   include('getRandomProducts.php');
+  include('category.php');
+  include('brand.php');
  

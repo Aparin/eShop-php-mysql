@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
   include('functions/functions.php');
+  include('functions/product.php');
   include('areas/areas.php');
 ?>
 
@@ -19,7 +20,7 @@
       <img src="images/logo.png"  >
       <img src="images/banner_w700.png" style="float: right">
     </div>
-
+    
     <?php menu(); ?>
 
     <div class="content_wrapper">
@@ -39,6 +40,7 @@
         <ul class="cats">
         <?php getBrands(); ?>
         </ul>
+
       </div>
       <div id="content_area">     
         <div id="infoPanel">
@@ -46,14 +48,9 @@
         </div>
         <div class="products_box">
           <?php 
-            if(!isset($_GET['cat']) && !isset($_GET['brand'])) {
-              getRandomProducts();
-            }  
-            if(isset($_GET['cat'])) {
-              category($_GET['cat']);
-            } 
-            if(isset($_GET['brand'])) {
-              brand($_GET['brand']);
+            if(isset($_GET['id'])) {
+              $id = $_GET['id'];
+              product($id);
             }
           ?>
         </div>

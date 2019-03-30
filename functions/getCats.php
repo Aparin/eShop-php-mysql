@@ -6,7 +6,8 @@
 
     while ($row = mysqli_fetch_assoc($read)) {
       $cat = $row['cat_title'];
-      echo "<li><a href='#'>$cat</a></li>";
+      $id = $row['cat_id'];
+      echo "<li><a href='index.php?cat=$id'>$cat</a></li>";
     }
      $mysqli->close();
   }

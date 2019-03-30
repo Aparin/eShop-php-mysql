@@ -5,7 +5,8 @@ function getBrands() {
 
     while ($row = mysqli_fetch_assoc($read)) {
       $brand = $row['brand_title'];
-      echo "<li><a href='#'>$brand</a></li>";
+      $id = $row['brand_id'];
+      echo "<li><a href='index.php?brand=$id'>$brand</a></li>";
     }
      $mysqli->close();
   }
