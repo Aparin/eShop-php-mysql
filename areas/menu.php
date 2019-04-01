@@ -5,10 +5,10 @@ function menu() {
     <div class="menubar" id="menu">
       <ul>
         <li><a href="index.php">Главная</a></li>
-        <li><a href="#">Товары</a></li>
-        <li><a href="#">Мой профиль</a></li>
+        <li><a href="all_products.php">Товары</a></li>
+        <li><a href="customer/my_account.php">Мой аккаунт</a></li>
         <li><a href="#">Войти</a></li>
-        <li><a href="#">Корзина</a></li>
+        <li><a href="cart.php">Корзина</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
       <span id="form">

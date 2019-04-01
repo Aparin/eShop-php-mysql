@@ -5,7 +5,8 @@
   
       while ($row = mysqli_fetch_assoc($read)) {
         $brand = $row['brand_title'];
-        echo "<option>$brand</option>";
+        $id = $row['brand_id'];
+        echo "<option value='$id'>$brand</option>";
       }
        $mysqli->close();
     }

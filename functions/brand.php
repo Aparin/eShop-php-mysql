@@ -28,5 +28,5 @@ function brand($brand_id) {
       </div>
     ";    
   }
-   $mysqli->close();
+  $mysqli->close();
 }

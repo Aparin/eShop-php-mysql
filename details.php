@@ -15,17 +15,13 @@
   
 </head>
 <body>
-  <div class="main_wrapper">
-    <div class="header_wrapper">
-      <img src="images/logo.png"  >
-      <img src="images/banner_w700.png" style="float: right">
-    </div>
-    
-    <?php menu(); ?>
+  <div class="main_wrapper">   
+    <?php 
+      head();
+      menu(); 
+    ?>
 
     <div class="content_wrapper">
-   
-
       <div id="sidebar">
         <div class="sidebar_title">
           Категории:

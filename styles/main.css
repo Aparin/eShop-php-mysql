@@ -8,6 +8,13 @@ body {
     background-color: #fff;
 }
 
+h2 {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px;
+}
+
 img {
     margin: 0
 }

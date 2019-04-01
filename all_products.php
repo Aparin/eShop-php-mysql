@@ -41,15 +41,7 @@
         </div>
         <div class="products_box">
           <?php 
-            if(!isset($_GET['cat']) && !isset($_GET['brand'])) {
-              getRandomProducts();
-            }  
-            if(isset($_GET['cat'])) {
-              category($_GET['cat']);
-            } 
-            if(isset($_GET['brand'])) {
-              brand($_GET['brand']);
-            }
+            getAllProducts();
           ?>
         </div>
       </div>

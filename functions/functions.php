@@ -8,4 +8,4 @@
   include('getRandomProducts.php');
   include('category.php');
   include('brand.php');
- 
+  include('getAllProducts.php');
