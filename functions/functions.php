@@ -9,3 +9,4 @@
   include('brand.php');
   include('getAllProducts.php');
   include('search.php');
+  include('showProducts.php');
