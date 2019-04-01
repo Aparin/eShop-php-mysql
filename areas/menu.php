@@ -12,7 +12,7 @@ function menu() {
         <li><a href="#">Контакты</a></li>
       </ul>
       <span id="form">
-        <form method="get" action="result.php" enctype="multipart/form-data">
+        <form method="get" action="results.php" enctype="multipart/form-data">
           <input type="text" name="user_query" />
           <input type="submit" name="search" value="Искать" />
         </form>
